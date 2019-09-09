@@ -73,6 +73,8 @@ type RemoteIstioSpec struct {
 	// Proxy Init configuration options
 	ProxyInit ProxyInitConfiguration `json:"proxyInit,omitempty"`
 
+	ClusterName string `json:"clusterName,omitempty"`
+
 	signCert SignCert
 }
 

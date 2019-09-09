@@ -101,6 +101,8 @@ spec:
                     be no greater than max-workload-cert-ttl of Citadel.
                   type: string
               type: object
+            clusterName:
+              type: string
             defaultResources:
               description: DefaultResources are applied for all Istio components by
                 default, can be overridden for each component
